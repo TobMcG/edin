@@ -18,7 +18,6 @@
 				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'edin' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'edin' ), 'WordPress' ); ?></a>
 				<span class="sep"> | </span>
 				<?php printf( __( 'Theme: %1$s by %2$s.', 'edin' ), 'Edin', '<a href="http://wordpress.com/themes/edin/" rel="designer">WordPress.com</a>' ); ?>
-			</div><!-- .site-info -->
 			<?php if ( has_nav_menu( 'footer' ) ) : ?>
 				<nav class="footer-navigation" role="navigation">
 					<?php
